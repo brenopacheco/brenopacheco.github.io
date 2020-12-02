@@ -1,0 +1,36 @@
+#footer {
+    text-align: center;
+    font-size: 0.9em;
+    padding-top: 1em;
+}
+
+#footer .media {
+    margin: 0;
+}
+
+#footer hr {
+    margin-bottom: 0.8em;
+    width: 100%;
+    height: 1px;
+    border: 0;
+    background: var(--secondary-aux-color);
+    box-shadow: 0px 1px 1px 1px lightgrey;
+}
+
+#footer .media-item {
+    padding: 0;
+    padding-left: 1em;
+}
+
+#footer > div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 0.5em;
+    align-items: center;
+}
+
+#footer p {
+    display: inline-block;
+    justify-self: flex-start;
+}

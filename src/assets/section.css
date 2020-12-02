@@ -1,0 +1,41 @@
+.section {
+    margin:          0.5em 2em;
+    display:         flex;
+    flex-direction:  column;
+    justify-content: center;
+    align-items:     center;
+}
+
+.section-title {
+    font-size: 0.9em;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.section-title p {
+    color:        var(--primary-font-color);
+    font:         var(--secondary-font);
+    position: relative;
+    display: inline-block;
+}
+
+.section-title p::after {
+    content:    '';
+    position:   absolute;
+    left:       0;
+    top:        110%;
+    height:     1px;
+    width:      100%;
+    background: orange;
+    box-shadow: 0px 1px 1px 1px lightgrey;
+    opacity:    50%;
+}
+
+
+@media (max-width: 576px) {
+    .section {
+        margin: 0.5em 1em;
+    }
+}
