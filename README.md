@@ -1,3 +1,3 @@
 # Curriculum using react
 
-deploy to brenopacheco.github.io repository
+deploy to branch gh-pages

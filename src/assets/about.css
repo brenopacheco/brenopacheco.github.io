@@ -1,0 +1,55 @@
+.colored {
+    color: var(--primary-aux-color);
+}
+
+.about {
+    margin: 0.5em 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    justify-content: stretch;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.lorem, .data {
+  text-align: justify;
+  text-justify: inter-word;
+  padding: 0 1em;
+  font-weight: 400;
+  line-height: 26px;
+  color: #4b4453;
+  font-size: 0.8em;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid black; */
+  min-width: 220px;
+  max-width: 90%;
+}
+
+.lorem {
+    flex: 1;
+}
+
+.lorem p {
+    margin-bottom: 0.6em;
+}
+
+.data-item {
+    display: flex;
+}
+
+.data-item > * {
+    display: inline-block;
+}
+
+.data-item > span {
+    width: 100px;
+}
+
+.lorem {
+    width: 300px;
+}
+
+
+
