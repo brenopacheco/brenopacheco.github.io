@@ -14,16 +14,14 @@ const about_text =
         completed a degree in Mechanical Engineering. 
     </p>
 </>;
-    // </p>
-    // <p>
 
 const data_items = [
     [ "Age",          "26 Years"                 ],
     [ "Address",      "Porto, Portugal"          ],
     [ "Phone",        "+351 936 493 517"         ],
     [ "Availability", "full-time "               ]
-].map(item =>
-        <div className="data-item">
+].map((item, idx) =>
+        <div key={idx} className="data-item">
             <span className="colored">{item[0]}:</span><p>{item[1]}</p>
         </div>
 );
