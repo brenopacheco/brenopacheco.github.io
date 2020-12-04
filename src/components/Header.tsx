@@ -62,8 +62,8 @@ export function Media(): ReactElement {
         <div className="media">
             <ul>
              <MediaListItem icon={FaGithub}     href="https://github.com/brenopacheco" text="Github"/>
-             <MediaListItem icon={FaLinkedin}   href="" text="LinkedIn"/>
-             <MediaListItem icon={FaPaperPlane} href="" text="Email"/>
+             <MediaListItem icon={FaLinkedin}   href="https://www.linkedin.com/in/brenopacheco" text="LinkedIn"/>
+             <MediaListItem icon={FaPaperPlane} href="mailto:brenoleonhardt@gmail.com" text="Email"/>
              <MediaListItem icon={FaPhone}      href="#contact" text="+351 936 493 517"/>
             </ul>
         </div>

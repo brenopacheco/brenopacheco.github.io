@@ -6,13 +6,11 @@
     --secondary-bg-color:   #FEFDFE;
     --primary-bg-color:     #EBEDEE;
     --primary-font-color:   #133B5C;
-    /* --secondary-font-color: #7E7D82; */
-    /* --secondary-font-color: #4b4453; */
     --secondary-font-color: #422F55;
     --primary-aux-color:    #0FA08A;
     --secondary-aux-color:  #E6B184;
     --picture-size:         140px;
-
+    font-size:              16px;
 }
 
 /* disable scrollbar */

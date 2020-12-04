@@ -2,6 +2,7 @@ import React, { ReactElement } from 'react'
 
 import '../assets/about.css';
 import { Title } from './Section';
+import Timeline from './Timeline';
 
 const about_text = 
 <>
@@ -38,6 +39,7 @@ export default function About(): ReactElement {
                     {data_items}
                 </div>
             </div>
+            <Timeline/>
         </div>
     )
 }
