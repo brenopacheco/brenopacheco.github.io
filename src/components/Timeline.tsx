@@ -4,10 +4,8 @@ import '../assets/timeline.css';
 export default function Timeline(): ReactElement {
     return (
         <div className="timeline">
-            <div className="bar"/>
-            <div className="items">
                 <Item
-                    date="2018 - today"
+                    date="2018"
                     title="Informatics Engineering"
                     location="ISEP - Porto, Portugal"
                     description="university course on software engineering"
@@ -36,10 +34,13 @@ export default function Timeline(): ReactElement {
                     location="Tendence Geradores, Porto Alegre, Brazil"
                     description="Drawing of power generator sets and assemblies through computer aided design"
                 />
-            </div>
         </div>
     )
 }
+                    // description="5 year course on Mechanical Engineering"
+            // <div className="items">
+            // </div>
+            // <div className="bar"/>
 
 interface ItemProps {
     date: string,
