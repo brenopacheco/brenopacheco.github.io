@@ -72,6 +72,8 @@
     box-shadow:     rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     display:        inline-block;
     vertical-align: middle;
+    margin-left:    auto;
+    align-self:     center;
 }
 
 
@@ -80,6 +82,7 @@
     color: var(--primary-aux-color);
     font-weight: 700;
     font-size: 16px;
+    flex: 1 0;
 }
 
 .timeline-item .title::after,.title::before {
@@ -133,9 +136,10 @@
         margin: 0;
     }
     .timeline::after {
-        height: calc(100% - 9.5em);
+        /* height: calc(100% - 9.5em); */
+        height: calc(100% - 3.2em);
         left: 50%;
-        top:  2em;
+        top:  2.5em;
     }
     .timeline-item {
         align-self: start;
