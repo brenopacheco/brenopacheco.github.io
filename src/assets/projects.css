@@ -33,7 +33,7 @@
 
 
 .project-item .description {
-    opacity: 80%;
+    opacity: 0.8;
     text-align:     justify;
     text-justify:   inter-word;
     font-weight:    400;

@@ -75,7 +75,7 @@
     align-self:     center;
     font-size:      0.875rem;
     color:          var(--primary-font-color);
-    opacity:        90%;
+    opacity:        0.9;
 }
 
 
@@ -131,7 +131,7 @@
     font-family:     var(--secondary-font);
     width:           100%;
     font-size:       0.875rem;
-    opacity:         80%;
+    opacity:         0.8;
     font-weight:     400;
 }
 
