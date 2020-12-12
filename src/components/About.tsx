@@ -8,7 +8,7 @@ const about_text =
 <>
     <p>
         I'm a <span className="colored">software development</span> student,
-        currently attending datarmatics Engineering in the city of <a
+        currently attending Informatics Engineering in the city of <a
         className="colored" href="https://www.isep.ipp.pt/">Porto -
         Portugal</a>.
         I'm a fast learner and a great team player, having previously 

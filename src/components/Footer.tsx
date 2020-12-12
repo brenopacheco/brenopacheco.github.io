@@ -1,5 +1,6 @@
 import { ReactElement } from 'react'
 import '../assets/footer.css';
+// import '../assets/boxes.css';
 import { Media } from './Header';
 
 

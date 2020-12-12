@@ -5,12 +5,17 @@
     --primary-font:         'Raleway', sans-serif;
     --secondary-bg-color:   #FEFDFE;
     --primary-bg-color:     #EBEDEE;
-    --primary-font-color:   #133B5C;
+    /* --primary-font-color:   #133B5C; */
+    --primary-font-color:   #25004D;
     --secondary-font-color: #422F55;
     --primary-aux-color:    #0FA08A;
     --secondary-aux-color:  #E6B184;
-    --picture-size:         140px;
+    --picture-size:         160px;
     font-size:              16px;
+}
+
+h2 {
+    font-size: 1rem;
 }
 
 /* disable scrollbar */
@@ -35,6 +40,7 @@ body::-webkit-scrollbar { /* WebKit */
 
 span, p {
     color: var(--secondary-font-color);
+    font-size: 0.875rem;
 }
 
 ul, ol {
@@ -51,18 +57,17 @@ a:active {
 }
 
 body {
-    font-size:   20px;
-    padding:     1em;
-    font-weight: 300;
+    padding:     1rem;
     width:       100%;
-    font-family: var(--primary-font);
     box-sizing:  border-box;
+    font-family: var(--primary-font);
     background:  var(--primary-bg-color);
+    font-weight: 300;
 }
 
 .container {
     box-shadow:     rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius:  0.4em;
+    border-radius:  0.4rem;
     display:        flex;
     flex-direction: column;
     width:          100%;

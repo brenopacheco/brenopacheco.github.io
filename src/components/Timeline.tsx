@@ -32,7 +32,7 @@ export default function Timeline(): ReactElement {
                     date="2016"
                     title="Internship (Technician)"
                     location="Tendence Geradores, Porto Alegre, Brazil"
-                    description="Drawing of power generator sets and assemblies through computer aided design"
+                    description="Drawing of power generator sets and assemblies using CAD"
                 />
         </div>
     )

@@ -4,7 +4,7 @@ import '../assets/section.css';
 export function Title(props: { text: string }): ReactElement {
     return (
         <div className="section-title">
-            <p>{props.text}</p>
+            <h2>{props.text}</h2>
         </div>
     )
 }
