@@ -96,7 +96,7 @@
 .timeline-item .title::after,.date::after {
     content:          '';
     position:         absolute;
-    left:             calc(100% + 9px);
+    left:             calc(100% + 8px);
     top:              calc(50% - 5px);
     width:            10px;
     height:           10px;
